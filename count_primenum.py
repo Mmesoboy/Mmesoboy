@@ -23,4 +23,7 @@ while True:
         elif count==0:
                 print('No prime numbers found between', start, 'and', stop)
         else:
-                print('Only one prime number is present within', start, 'and', stop)
+                print('Only one prime number is present between', start, 'and', stop)
+        choice=input('Do you want to continue?(Y/n):')
+        if choice=='n':
+                break
