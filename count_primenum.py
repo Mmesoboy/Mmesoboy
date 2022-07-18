@@ -22,5 +22,5 @@ while True:
                 print('There are', count, 'prime numbers between', start, 'and', stop)
         elif count==0:
                 print('No prime numbers found between', start, 'and', stop)
-                continue
-        print('Only one prime number is present within', start, 'and', stop)
+        else:
+                print('Only one prime number is present within', start, 'and', stop)
