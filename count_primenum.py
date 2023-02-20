@@ -7,7 +7,7 @@ while True:
         if start > stop:
                 print("The range given is invalid")
         elif start<0:
-                print('negative integers cannot be a starting point')
+                print('Only positive integers please')
                 continue
         count=0
         for p in range(start, stop+1):
